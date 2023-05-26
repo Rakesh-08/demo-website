@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+}
+.navLogo {
+  flex: 0.5;
+  padding-left: 2em;
+}
+@media screen and (max-width: 380px) {
+  .profileImg{
+    height: 40px;
+    }
+    .headings>h1{
+        font-size: 14px;
+    }
+}
+
+.profileImg {
+  height: 80px;
+  width: 84px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.navHeadings {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1em;
+}
