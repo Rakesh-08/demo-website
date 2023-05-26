@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
       <div className="navbar">
           <div className="navLogo">
-              <img className='profileImg' src="../../../resource/Signature.jpeg"/>
+              <img className='navImg' src="../../../resource/Signature.jpeg"/>
           </div>
       <div className="navHeadings">
         <NavItem heading="Home" />

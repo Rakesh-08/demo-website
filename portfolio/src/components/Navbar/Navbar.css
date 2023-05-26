@@ -1,20 +1,24 @@
 .navbar {
   display: flex;
+  position: sticky;
+  top:0;
+  background-color: rgb(20, 20, 20);
 }
 .navLogo {
   flex: 0.5;
   padding-left: 2em;
 }
 @media screen and (max-width: 380px) {
-  .profileImg{
+  .navLogo .navImg{
     height: 40px;
+    width: 44px;
     }
-    .headings>h1{
-        font-size: 14px;
+    .headings{
+        font-size: 6px;
     }
 }
 
-.profileImg {
+.navImg {
   height: 80px;
   width: 84px;
   border-radius: 20%;
