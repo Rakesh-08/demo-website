@@ -9,10 +9,10 @@ export default function Navbar() {
               <img className='navImg' src="../../../resource/Signature.jpeg"/>
           </div>
       <div className="navHeadings">
-        <NavItem heading="Home" />
-        <NavItem heading="About" />
-        <NavItem heading="Projects" />
-        <NavItem heading="Tech-Stack" />
+        <NavItem heading="Home" id='#home' />
+        <NavItem heading="About" id='#about' />
+        <NavItem heading="Projects" id='#projects' />
+        <NavItem heading="Tech-Stack" id='#techStack' />
       </div>
     </div>
   );

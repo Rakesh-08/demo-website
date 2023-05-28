@@ -1,10 +1,11 @@
 import react from "react";
 import "./NavItem.css";
 
-export default function NavItem({heading}) {
+export default function NavItem({heading,id}) {
     return (
         <div className="headings">
-            <h1>{heading}</h1>
+            <a href={id} style={{"text-decoration":"none"}}><h1>{heading}</h1></a>
+            
         </div>
     )
 }

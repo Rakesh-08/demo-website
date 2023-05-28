@@ -4,7 +4,7 @@ import "./Projects.css";
 
 export default function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id='projects'>
             some silly projects that I have done
         </div>
     )

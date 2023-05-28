@@ -3,9 +3,10 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home" id='home'>
       <div className="welcomeMsg">
-        <h4>Rakesh Mandal</h4>
+        <h4><span>Software</span>
+            <span> Development</span></h4>
       </div>
       <div className="homeContainer">
         <div className="homeLeft">
@@ -16,10 +17,15 @@ export default function Home() {
           />
         </div>
         <div className="homeRight">
+          <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet,
           repellat natus adipisci consequuntur deleniti eius itaque temporibus
           laboriosam culpa non neque maiores exercitationem saepe facere
-          corrupti blanditiis sint laborum recusandae.
+            corrupti blanditiis sint laborum recusandae.
+            </p>
+          <br/><br/>
+
+          -@Rakesh Mandal
         </div>
       </div>
     
