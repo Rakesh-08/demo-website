@@ -1,14 +1,14 @@
 import react from "react";
 import "./Comment.css";
 
-export default function Comment({content}){
+export default function Comment({content,title}){
     return (
         <div className='comment'>
             <div className='commentBox'>
                 
-                  <h2>Title point</h2>
+                <h2>{title}</h2>
                 
-                <p>comment</p>
+                <p>{content}</p>
             </div>
         </div>
     )

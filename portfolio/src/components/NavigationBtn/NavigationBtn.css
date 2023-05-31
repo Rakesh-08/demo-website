@@ -1,0 +1,21 @@
+
+.btnCover{
+    margin:3px;
+    
+    border-radius: 50%;
+}
+
+.navBtn{
+    margin:5px;
+    height: 1em;
+    width:1em;
+    border-radius: 50%;
+    
+}
+.activeBorder{
+    border:1px solid goldenrod;
+}
+.active{
+    background-color:goldenrod;
+    
+}

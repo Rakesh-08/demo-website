@@ -2,9 +2,10 @@
 .aboutMe{
     min-height: 100vh;
     width: 100%;
+   
 }
 .break{
-   
+  
     background-color: red;
     height: 3px;
     width: 50%;
@@ -13,11 +14,56 @@
 }
 .commentsContainer{
     display:  flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    padding: 2em;
+    width: 100vw;
+      
+
+}
+
+.cvFormContainer{
+  
+    display: flex;
+    justify-content: space-around;
+     margin:20px ;
+    padding: 20px;
 }
 
 
+.cvPart{
+    width: 39vw;
+    margin:20px;
+    padding: 10px;
+    font-size:1.3em;
+    line-height: 1.3;
+    font-family:cursive;
+    color:rgb(228, 194, 131);
+}
+.form{
+    width: 30vw;
+    text-align: center;
+    align-self: center;
+}
+.resume{
+    color:green
+}
+
+.resume:hover{
+   color:yellow;
+   text-decoration: underline;
+}
+
+.msgMe{
+    padding:20px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    color:white;
+    border:none;
+    border-radius: 5%;
+    background-color: gray;
+
+}
 
 
 

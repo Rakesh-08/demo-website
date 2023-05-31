@@ -1,15 +1,22 @@
 .comment{
-    background-color: yellowgreen;
+    background-color: rgb(25, 232, 60);
     position:relative;
-    height: 15em;
-    width: 15em;
-    margin:20px
+    height: 33vh;
+    width: 15vw;
+    margin:20px;
 }
 .commentBox{
-    background-color: rgb(255, 0, 208);
+    background-color: rgb(108, 36, 241);
     position: absolute;
      right: -1.2em;
      bottom: -1.2em;
-    height: 15em;
-    width: 14em;
+    height: 33vh;
+    width: 15vw;
+    text-align: center;
+    
+}
+.commentBox p{
+  line-height: 1.4;
+  padding: 1em;
+ 
 }

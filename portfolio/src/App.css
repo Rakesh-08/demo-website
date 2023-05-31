@@ -2,3 +2,14 @@ body{
     background-color: black;
     color: white;
 }
+.pagination{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom:15px;  
+    
+}
+a{
+    text-decoration: none;
+    
+}
