@@ -1,19 +1,82 @@
 .footer{
-    padding: 3em;
+    padding-top: 3em;
     min-height: 80vh;
-    background-color: gray;
+   background-color: rgb(233, 89, 89);
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
 }
 .footerContainer{
+   
     display: flex;
     justify-content: space-around;
+    flex:0.8;
+    
 }
+
 
 .footerLeft >img{
     height: 40vh;
     width: 30vw;
     border-radius: 10%;
 }
+.mid{
+    margin:auto 0px;
+}
+.footerRight{
+    display: flex;
+     height: 50vh;
+     width: 40vw;
+     justify-content: end;
+     
+    
+}
+form{
+   
+    width: 24vw;
+}
 
+.formfield{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+
+}
+
+label{
+    font-size: 2em ;
+    margin:9px
+}
+input{
+    height: 30px;
+    border-radius: 4%;
+    background-color: rgb(149, 245, 6);
+}
+
+.formSubmit{
+    padding:0.5em;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.footerLowerPart{
+   
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.msgLogo img{
+    height: 25px;
+    margin-left:10px;
+    cursor: pointer;
+}
+.footerLowerPart h4{
+    flex:0.9;
+    text-align: end;
+    
+}
 
 
 

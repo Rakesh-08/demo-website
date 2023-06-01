@@ -21,7 +21,7 @@ export default function Home() {
           <p className="intro">
             <span style={{color:"orange" ,lineHeight:"3em"}}>Hello everyone,</span>
             <br/>
-             I am an aspiring software developer with a keen interest towards  new technologies and having expertise in mainly  javascript, nodejs , expressjs , react and redux etc . I hope  i could  deliver my best to the oppotuinities i will get along  my  journey.
+             I am an aspiring software developer with a keen interest for the  new technologies and having expertise in mainly  javascript, nodejs , expressjs , react and redux etc . I hope  i could  deliver my best to the oppotuinities i will get along  my  journey.
           </p>
           <br />
           <br />

@@ -10,8 +10,8 @@ export default function TechExpertise() {
     <div className="techStack" id="techStack">
       <div>
         <h2 className="techTitle">Tech - Stack</h2>
-        <div>
-          comment on the knowledge and description about the technologies known
+        <div className="techIntro">
+         In the very first step , I had learnt  HTML , CSS and Javascript and then i have accumulated the knowledge of nodejs , expressjs , jest , mysql , mongodb , react , redux and bootstrap and still there is  a lot to add ....
         </div>
       </div>
       <div className="techContainer">
