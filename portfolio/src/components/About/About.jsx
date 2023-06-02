@@ -7,7 +7,7 @@ export default function About({windowProps}) {
 
   let content1 = "I always consider  pros and cons of any given problem while making decisions it helps us to make insightful decisions .";
   
-  let content2 = "I think  , from the very start i was a quick learner and the pace at which i adapt new things could be one of the possible reasons  ";
+  let content2 = " I was a quick learner from the very beginning and i think the pace at which i adapt new things could be one of the possible reasons  ";
 
   let content3 = "some people thinks searching for the perfection is not good because its time consuming but for me its the  investment of time to get satisfactory outcome ";
     return (

@@ -11,6 +11,42 @@ body{
     
 }
 a{
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
+@media screen and (max-width: 500px) {
+  /* .navLogo .navImg{
+    height: 40px;
+    width: 44px;
+    } */
+
+  .homeLeft  .intro{
+       font-size: 11px;
+
+    }
+    
+  .homeLeft  .socialChannels{
+       
+     transform: scale(0.7);
+      width: 100%;
+    }
+ .commentsContainer .commentBox{
+      height: 16em;
+      width: 14em;
+    }
+
+    .formfield label{
+        font-size: 1em;
+    }
+ .footerContainer .footerRight{
+   display: inline
+    }
+   
+}
+
+
+
+
+
+
+
+

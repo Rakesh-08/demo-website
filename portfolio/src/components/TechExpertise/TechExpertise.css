@@ -1,6 +1,6 @@
 
 .techStack{
-    padding: 3em;
+    padding-top: 3em;
     min-height: 80vh;
     width: 100%;
 }
@@ -25,7 +25,7 @@
 .techContainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin:20px;
     padding: 20px;
 }

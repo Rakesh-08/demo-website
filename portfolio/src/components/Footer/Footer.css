@@ -20,9 +20,7 @@
     width: 30vw;
     border-radius: 10%;
 }
-.mid{
-    margin:auto 0px;
-}
+
 .footerRight{
     display: flex;
      height: 50vh;
@@ -32,7 +30,6 @@
     
 }
 form{
-   
     width: 24vw;
 }
 

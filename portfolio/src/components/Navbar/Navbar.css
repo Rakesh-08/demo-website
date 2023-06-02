@@ -9,13 +9,7 @@
   flex: 0.5;
   padding-left: 2em;
 }
-@media screen and (max-width: 380px) {
-  /* .navLogo .navImg{
-    height: 40px;
-    width: 44px;
-    } */
-   
-}
+
 
 .navImg {
   height: 5vw;

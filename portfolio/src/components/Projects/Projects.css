@@ -10,19 +10,21 @@
      margin-top: 10px;
 }
 
+.projectsHeading{
+
+   margin:4px auto;
+    height: 20vh;
+    width: 50%;
+    font-size: 1.1em;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
 .projectContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.projectsHeading{
-   margin:4px auto;
-    height: 4em;
-    width: 50%;
-    font-size: 1.1em;
-    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 

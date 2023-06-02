@@ -1,7 +1,7 @@
 .headings h1{
-    font-size: 1.7vw;
+    font-size: 2vw;
     font-style:italic;
-    color: bisque;
+    color: rgb(248, 216, 176);
 }
 .headings h1:hover{
     cursor: pointer;
