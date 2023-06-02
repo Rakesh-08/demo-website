@@ -1,0 +1,17 @@
+
+.formResponse{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(234, 219, 219);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formResponse span{
+    margin:20px;
+    cursor: pointer;
+    color:blue;
+    text-decoration: underline;
+    font-weight: bold;
+}

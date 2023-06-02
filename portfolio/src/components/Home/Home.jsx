@@ -59,7 +59,7 @@ export default function Home() {
         <div className="homeRight">
           <img
             className="profileImg"
-            src="../../../resource/Profile-pic (1).jpeg"
+            src="../../../output/static/Profile-pic (1).jpeg"
             alt="profile_pic"
           />
         </div>

@@ -11,15 +11,15 @@
 }
 .firstN{
     color:rgb(20, 154, 220);
-    font-size: 8vh ;
+    font-size: 4vw;
 }
 .lastN{
-    font-size: 8vh; 
+    font-size: 4vw; 
       color:purple;
 }
 
 .profileImg{
-    height: 100%;
+    height: 30vw;
     width: 60%;
     border-radius: 19% 4% 19% 4%;
     border: 3px solid rebeccapurple;

@@ -3,8 +3,8 @@ import "./Comment.css";
 
 export default function Comment({content,title}){
     return (
-        <div className='comment'>
-            <div className='commentBox'>
+        <div className='commentBox'>
+            <div className='comment'>
                 
                 <h2>{title}</h2>
                 

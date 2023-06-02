@@ -1,17 +1,17 @@
-.comment{
+.commentBox{
     background-color: rgb(25, 232, 60);
     position:relative;
-    height: 33vh;
-    width: 15vw;
+    height: 15em;
+    width: 15em;
     margin:20px;
 }
-.commentBox{
+.comment{
     background-color: rgb(108, 36, 241);
     position: absolute;
      right: -1.2em;
      bottom: -1.2em;
-    height: 33vh;
-    width: 15vw;
+    height: 100%;
+    width: 100%;
     text-align: center;
     
 }

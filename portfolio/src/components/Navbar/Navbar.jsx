@@ -6,7 +6,7 @@ export default function Navbar({windowProps}) {
   return (
     <div className="navbar">
       <div className="navLogo">
-        <img className="navImg" src="../../../resource/Signature.jpeg" />
+        <img className="navImg" src="../../../output/static/Signature.jpeg" />
       </div>
       <div className="navHeadings">
         <NavItem windowProp={windowProps} heading="Home" id="#home" />

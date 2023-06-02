@@ -7,20 +7,41 @@ import Projects from "./components/Projects/Projects"
 import TechExpertise from "./components/TechExpertise/TeckExpertise";
 import Footer from "./components/Footer/Footer";
 import NavigationBtn from "./components/NavigationBtn/NavigationBtn";
+import FormResponse from "./components/FormResponse/FormResponse";
 
 
 export default function App() {
 
   let [currentPage, setCurrentPage] = useState(window.location.href);
-  let webPages = ["#home", "#about", "#projects", "#techStack","#footer"]
+  let [submit, setSubmit] = useState(false);
+  let webPages = ["#home", "#about", "#projects", "#techStack", "#footer"];
+
 
   useEffect(() => {
        setCurrentPage(window.location.href="#home")
-  },[])
+  }, [])
+  
+  let handleFormSubmit = (e,formInfo) => {
+ 
+ for (let c in formInfo) {
+      if (formInfo[c] === "") {
+        return c;
+      }
+    }
+    setSubmit(!submit);
+  
+  };
+
   
    let navigateTo = (link) => {
      setCurrentPage(window.location.href = link);
-   };
+  };
+  
+
+  if (submit) {
+    return <FormResponse handleFormSubmit={handleFormSubmit} />;
+  }
+ 
 
   return (
     <div className="app">
@@ -29,7 +50,7 @@ export default function App() {
       <About windowProps={navigateTo} />
       <Projects />
       <TechExpertise />
-      <Footer />
+      <Footer handleFormSubmit={handleFormSubmit} />
       <div className="pagination">
         {webPages.map(link => {
           return <NavigationBtn key={link} link={link} windowProps={{ currentPage, navigateTo }}/>

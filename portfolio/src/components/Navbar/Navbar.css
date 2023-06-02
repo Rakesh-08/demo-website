@@ -10,18 +10,16 @@
   padding-left: 2em;
 }
 @media screen and (max-width: 380px) {
-  .navLogo .navImg{
+  /* .navLogo .navImg{
     height: 40px;
     width: 44px;
-    }
-    .headings{
-        font-size: 6px;
-    }
+    } */
+   
 }
 
 .navImg {
-  height: 60px;
-  width: 64px;
+  height: 5vw;
+  width:   5vw;
   border-radius: 20%;
   cursor: pointer;
 }
