@@ -24,7 +24,7 @@
     border-radius: 19% 4% 19% 4%;
     border: 3px solid rebeccapurple;
     position: absolute;
-    padding: 1em 0em 0em 1em;
+    padding: 2vw 0em 0em 2vw;
     right:2em;
     
    
@@ -55,6 +55,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.media{
+    margin:4px
 }
 .icon{
      transform: scale(1.4);

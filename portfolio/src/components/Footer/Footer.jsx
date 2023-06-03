@@ -59,6 +59,7 @@ export default function Footer({ handleFormSubmit }) {
             <div className="formfield">
               <label>Message </label>
               <input
+                style={{height:"4em"}}
                 required
                 value={formInfo.message}
                 onChange={(e) =>

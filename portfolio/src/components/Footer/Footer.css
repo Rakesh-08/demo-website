@@ -57,11 +57,9 @@ input{
 }
 
 .footerLowerPart{
-   
+   margin-left: 2em;
     height: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    
+     
 }
 
 .msgLogo img{
