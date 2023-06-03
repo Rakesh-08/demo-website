@@ -3,7 +3,7 @@ let projects = [
     { name: "Counter-App", link:"#" },
     { name: "Tic-Tac-Toe Game", link:"https://simple-todo-app-git-tic-tac-rakesh-08.vercel.app/" },
     { name: "Resume Builder", link: "#" },
-    { name:" continue to be >> chat-bot",link:"#" }
+    { name:" coming soon.. >> chat-bot",link:"#" }
   
 ];
 export default projects;

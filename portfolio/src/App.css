@@ -24,6 +24,10 @@ a{
       font-size:3vw;
     }
 
+    .navbar .navHeadings{
+      flex:2
+    }
+
   .homeLeft  .intro{
        font-size: 8px;
 
@@ -47,6 +51,10 @@ a{
     }
  .footerContainer .footerRight{
    display: inline
+    }
+
+    .app .pagination{
+      bottom: 0;
     }
    
 }
