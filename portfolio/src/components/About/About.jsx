@@ -21,7 +21,7 @@ export default function About({windowProps}) {
         <div className="cvFormContainer">
             <div className="cvPart">
             <h5 className="cvIntro">  I  am from delhi and i have done my schooling and degrees from delhi itself. I hold a masters degree in Economics from Delhi University .  To know more , have a look over my resume-</h5>
-            <a href="../../../output/static/Rakesh kumar Mandal (1).pdf" target="_blank" className="resume"> RESUME </a>
+            <a href="/Rakesh kumar Mandal (1).pdf" target="_blank" className="resume"> RESUME </a>
         </div>
           <div className="form">
            
