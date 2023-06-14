@@ -30,16 +30,15 @@ a{
 
   .homeLeft  .intro{
        font-size: 0.8em;
-
-    }
-
-    
+  }    
   .homeLeft  .socialChannels{
-      
-    
-     transform: scale(0.7);
+      transform: scale(0.7);
      width: 100%;
       
+    }
+    
+    .homeRight .profileImg{
+        right:0.8em
     }
  .commentsContainer .commentBox{
       height: 16em;
