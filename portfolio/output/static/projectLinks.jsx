@@ -9,7 +9,7 @@ let projects = [
     name: "Resume Builder",
     link: "https://resume-builder-rakesh-08.vercel.app/",
   },
-  { name: "CRM support service", link: "https://crm-app-rakesh-08.vercel.app/" },
+  { name: "CRM support service", link: "https://crm-app-five.vercel.app/" },
   {name:"Fitness-App" ,link:"https://practice-for-backend-system.vercel.app/"}
 ];
 export default projects;
