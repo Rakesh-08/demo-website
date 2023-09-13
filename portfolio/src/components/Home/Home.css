@@ -1,12 +1,11 @@
 .home{
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100%;
-  padding-top: 3em;
+  padding-top: 1em;
     
 }
 .welcomeMsg{
     text-align: center;
-    height: 120px;
      padding: 10px;
 }
 .firstN{
@@ -19,7 +18,7 @@
 }
 
 .profileImg{
-    height: 26vw;
+    height: 100%;
     border-radius: 19% 4% 19% 4%;
     border: 3px solid rebeccapurple;
     position: absolute;
@@ -56,10 +55,13 @@
     justify-content: space-around;
 }
 .media{
-    margin:4px
+    margin:4px; 
 }
+
+
 .icon{
      transform: scale(1.4);
+     
 }
 
 .icon:hover{

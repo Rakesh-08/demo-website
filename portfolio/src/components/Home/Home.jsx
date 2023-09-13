@@ -22,9 +22,8 @@ export default function Home() {
               Hello everyone,
             </span>
             <br />I am an aspiring software developer with a keen interest for
-            the new technologies and having expertise in mainly javascript,
-            nodejs , expressjs , react and redux etc . I hope i could deliver my
-            best to the oppotuinities i will get along my journey.
+             new technologies and having expertise in  javascript,
+            nodejs , expressjs , react and redux etc . I have created several full stack projects on my own with server running on express and mongoDb database. Now I am aiming to get some oppotunities to put my skills in solving real life problems
           </p>
           <br />
           <br />
@@ -68,7 +67,7 @@ export default function Home() {
         <div className="homeRight">
           <img
             className="profileImg"
-            src="/Profile-pic (1).jpeg"
+            src="/profile Img.png"
             alt="profile_pic"
           />
         </div>

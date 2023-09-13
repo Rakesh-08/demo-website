@@ -3,6 +3,7 @@
     padding-top: 3em;
     min-height: 80vh;
     width: 100%;
+    margin-bottom: 4rem;
 }
 .techTitle{
     text-align: center;
@@ -25,9 +26,10 @@
 .techContainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     margin:20px;
     padding: 20px;
+    width:50vw
 }
 
 

@@ -2,16 +2,18 @@ body{
     background-color: black;
     color: white;
     overflow-x: hidden;
+ 
 }
 .pagination{
     display: flex;
     justify-content: center;
     position: sticky;
-    bottom:15px;  
+    bottom:4px;  
     
 }
+  
 a{
-    text-decoration: none;   
+  text-decoration:none;
 }
 @media screen and (max-width: 500px) {
   /* .navLogo .navImg{
@@ -38,11 +40,13 @@ a{
     }
     
     .homeRight .profileImg{
-        right:0.8em
+        right:0.8em;
+         height:60%;
+         width:21vw
     }
  .commentsContainer .commentBox{
-      height: 16em;
-      width: 14em;
+      height: 13em;
+      width: 12em;
     }
 
     .formfield label{

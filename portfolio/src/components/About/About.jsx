@@ -5,11 +5,11 @@ import Comment from "./Comment/Comment";
 
 export default function About({windowProps}) {
 
-  let content1 = "I always consider  pros and cons of any given problem while making decisions it helps us to make insightful decisions .";
+  let content1 = "I always consider  pros and cons of any given problem while making my most of the decisions ,  .";
   
-  let content2 = " I was a quick learner from the very beginning and i think the pace at which i adapt new things could be one of the possible reasons  ";
+  let content2 = " I was a quick learner from the very beginning and the reason for that ,I adapt new things very well and efficiently";
 
-  let content3 = "some people thinks searching for the perfection is not good because its time consuming but for me its the  investment of time to get satisfactory outcome ";
+  let content3 = "some people might think searching for the perfection is a wastage of time but for me its the  investment of time to get better outcome ";
     return (
       <div className="aboutMe" id='about'>
         <div className="break"></div>
@@ -20,8 +20,8 @@ export default function About({windowProps}) {
         </div>
         <div className="cvFormContainer">
             <div className="cvPart">
-            <h5 className="cvIntro">  I  am from delhi and i have done my schooling and degrees from delhi itself. I hold a masters degree in Economics from Delhi University .  To know more , have a look over my resume-</h5>
-            <a href="/Rakesh kumar Mandal (1).pdf" target="_blank" className="resume"> RESUME </a>
+            <h5 className="cvIntro"> Hey guys,  I am from delhi and i have done my schooling and degrees from delhi itself and I hold a masters degree in Economics from Delhi University .  To know more  , have a look over my resume below -</h5>
+            <a href="/Resume-Rakesh Mandal.pdf" target="_blank" className="resume"> RESUME </a>
         </div>
           <div className="form">
            

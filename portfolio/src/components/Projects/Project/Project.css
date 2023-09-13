@@ -1,19 +1,17 @@
- .singleProject{
-    background-color: rgb(10, 153, 136);
+ .singleProject{ 
     height: 30vh;
     width: 24vw;
-    margin:0.8em;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    font-size: 2vw;
-  
+    margin:0.3em;
 }
 
 .singleProject:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
    border-radius: 5%;
+   opacity: 0.4;
+  
 } 
+
+
 
 
 

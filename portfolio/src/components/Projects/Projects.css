@@ -1,8 +1,8 @@
 
 .projects{
-   padding:4em;
+  margin:1em;
     min-height: 100vh;
-    width: 100%;
+    
  
 }
 .projects >h2{
@@ -12,8 +12,7 @@
 
 .projectsHeading{
 
-   margin:10px auto;
-    height: 20vh;
+   margin:20px auto;
     width: 50%;
     font-size: 1.1em;
     text-align: center;

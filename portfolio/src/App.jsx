@@ -18,7 +18,7 @@ export default function App() {
 
 
   useEffect(() => {
-       setCurrentPage(window.location.href="#home")
+       setCurrentPage(()=>window.location.href="/#home")
   }, [])
   
   let handleFormSubmit = (e,formInfo) => {

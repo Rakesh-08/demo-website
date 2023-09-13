@@ -10,6 +10,7 @@ export default function Footer({ handleFormSubmit }) {
     message: "",
   });
 
+
   return (
     <div className="footer" id="footer">
       <div className="footerContainer">
@@ -59,7 +60,7 @@ export default function Footer({ handleFormSubmit }) {
             <div className="formfield">
               <label>Message </label>
               <input
-                style={{height:"4em"}}
+                style={{ height: "4em" }}
                 required
                 value={formInfo.message}
                 onChange={(e) =>
@@ -81,22 +82,29 @@ export default function Footer({ handleFormSubmit }) {
       </div>
 
       <div className="footerLowerPart">
-        <div className="msgLogo">
-          <span>8448746347:</span>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"
-            alt="mobileLogo"
-          />
-        </div>
+        <div className="footerInfo">
+          <div>
+            <div className="msgLogo">
+              <span>8448746347:</span>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"
+                alt="mobileLogo"
+              />
+            </div>
 
-        <div className="msgLogo">
-          <span>Mandal8285980523@gmail.com</span>
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/281/281769.png"
-            alt="EmailLogo "
-          />
+            <div className="msgLogo">
+              <span>Mandal8285980523@gmail.com</span>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/281/281769.png"
+                alt="EmailLogo "
+              />
+            </div>
+          </div>
+          <div >
+            <h4 className="copy">copyrights2023 @Rakesh_Mandal</h4>
+          </div>
+          
         </div>
-        <h4>Rakesh_Mandal @copyrights2023</h4>
       </div>
     </div>
   );
