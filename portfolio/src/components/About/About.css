@@ -27,7 +27,8 @@
     display: flex;
     justify-content: space-around;
      margin:20px ;
-    padding: 20px;
+     padding:1em 0;
+   
 }
 
 
@@ -55,14 +56,14 @@
 }
 
 .msgMe{
-    padding:20px;
+    padding:8%;
     font-size: 1em;
     font-weight: 600;
     cursor: pointer;
     color:white;
     border:none;
-    border-radius: 5%;
-    background-color: gray;
+    border-radius: 50% 1%;
+    background-color: rgb(28, 131, 215);
 
 }
 

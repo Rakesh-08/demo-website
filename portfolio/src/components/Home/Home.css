@@ -23,7 +23,7 @@
     border: 3px solid rebeccapurple;
     position: absolute;
     padding: 2vw 0em 0em 2vw;
-    right:2em;
+    right:4em;
     
    
 }
@@ -37,15 +37,13 @@
     
 }
 .homeLeft{
-    flex:0.5;
-    margin:0 20px;
-    padding: 0 3em;
-   
+    flex:0.6;
+    margin:0 2rem;  
    
  }
 .intro{
    font-size: 1.2rem;
-    padding-right: 2rem;
+    padding: 0.3rem;
     line-height: 1.2rem;
 }
 .socialChannels{

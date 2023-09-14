@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="projects" id="projects">
             <h2>My Projects</h2>
             <div className="projectsHeading">
-            I have created these full stack apps and I have used react and redux to create the frontend part  and nodeJS , expressJS  for the backend part along with mongodb or mysql  database 
+            I have created these full stack apps with the help of react and redux to create the frontend part  and nodeJS , expressJS  for the backend  along with mongodb or mysql  database 
             </div>
         <div className="projectContainer">
           {projects.map((proj, index) => {

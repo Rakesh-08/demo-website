@@ -41,8 +41,8 @@ a{
     
     .homeRight .profileImg{
         right:0.8em;
-         height:60%;
-         width:21vw
+         height:65%;
+         width:23vw
     }
  .commentsContainer .commentBox{
       height: 13em;
@@ -52,9 +52,7 @@ a{
     .formfield label{
         font-size: 1em;
     }
- .footerContainer .footerRight{
-   display: inline
-    }
+ 
 
     .app .pagination{
       bottom: 0;

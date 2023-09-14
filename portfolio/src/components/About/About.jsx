@@ -13,6 +13,9 @@ export default function About({windowProps}) {
     return (
       <div className="aboutMe" id='about'>
         <div className="break"></div>
+        <div style={{fontSize:"1.4rem",margin:"1em", color:"pink"}}>
+            Personal Info
+         </div>
         <div className='commentsContainer'>
           <Comment title="Analytical thinking" content={content1} />
           <Comment title="Adaptive learner" content={content2} />
@@ -26,7 +29,7 @@ export default function About({windowProps}) {
           <div className="form">
            
           <a href="#footer">
-            <button className="msgMe" onClick={()=>windowProps("#footer")}>Drop a message</button>
+            <button className="msgMe" onClick={()=>windowProps("#footer")}>Get In Touch</button>
           </a>
           
           </div>
