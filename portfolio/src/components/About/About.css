@@ -23,7 +23,6 @@
 }
 
 .cvFormContainer{
-  
     display: flex;
     justify-content: space-around;
      margin:20px ;
@@ -56,14 +55,14 @@
 }
 
 .msgMe{
-    padding:8%;
+    padding:4%;
     font-size: 1em;
-    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
     cursor: pointer;
     color:white;
-    border:none;
-    border-radius: 50% 1%;
-    background-color: rgb(28, 131, 215);
+    outline:grey solid ;
+    border-radius:5%;
+   background: transparent;
 
 }
 
