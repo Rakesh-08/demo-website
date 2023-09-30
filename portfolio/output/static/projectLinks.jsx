@@ -6,7 +6,7 @@ let projects = [
   },
   {
     name: "Netflix-clone",
-    link: "https://netflix-clone-rqui.onrender.com",
+    link: "https://netflix-frontend-one.vercel.app/",
     poster: "/Netflix-clone.png",
   },
   {
