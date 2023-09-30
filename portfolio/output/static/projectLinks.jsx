@@ -16,7 +16,7 @@ let projects = [
   },
   {
     name: "Counter-App",
-    link: "https://rakesh-08.github.io/Rakesh-08/Bits-and-Pieces/Dom/counter%20App/counter.html",
+    link: "https://rakesh-08.github.io/Rakesh-08/Bits-and-Pieces/Dom/counter-App/counter.html",
     poster: "/Counter.png",
   },
   {
