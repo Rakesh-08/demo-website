@@ -15,9 +15,9 @@ let projects = [
     poster: "/Todo-app.png",
   },
   {
-    name: "Counter-App",
-    link: "https://rakesh-08.github.io/Rakesh-08/Bits-and-Pieces/Dom/counter-App/counter.html",
-    poster: "/Counter.png",
+    name: "Mini-ECommerce app",
+    link: "https://local-online-market.netlify.app/",
+    poster: "/mini-ecommerce.png",
   },
   {
     name: "Tic-Tac-Toe Game",
