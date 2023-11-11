@@ -10,11 +10,6 @@ let projects = [
     poster: "/Netflix-clone.png",
   },
   {
-    name: "viewTube",
-    link: "https://viewtube-app.netlify.app/",
-    poster: "/viewTube.png",
-  },
-  {
     name: "Mini-ECommerce app",
     link: "https://local-online-market.netlify.app/",
     poster: "/mini-ecommerce.png",
@@ -39,5 +34,10 @@ let projects = [
     link: "https://practice-for-backend-system.vercel.app/",
     poster: "/Fitness-app.png",
   },
+  {
+    name: "viewTube",
+    link: "https://viewtube-app.netlify.app/",
+    poster: "/viewTube.png",
+  }
 ];
 export default projects;
