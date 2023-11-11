@@ -10,9 +10,9 @@ let projects = [
     poster: "/Netflix-clone.png",
   },
   {
-    name: "Todo-App",
-    link: "https://simple-todo-app-psi.vercel.app/",
-    poster: "/Todo-app.png",
+    name: "viewTube",
+    link: "https://viewtube-app.netlify.app/",
+    poster: "/viewTube.png",
   },
   {
     name: "Mini-ECommerce app",
