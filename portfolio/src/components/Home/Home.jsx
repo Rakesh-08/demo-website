@@ -22,8 +22,8 @@ export default function Home() {
               Hello everyone,
             </span>
             <br />I am an aspiring software developer with a keen interest for
-             new technologies and having expertise in  javascript,
-            nodejs , expressjs , react and redux etc . I have created several full stack projects on my own with server running on express and mongoDb database. Now I am aiming to get some oppotunities to put my skills in solving real life problems
+             Technologies. I  have great knowledge about javascript,
+            nodejs , expressjs , react and redux etc . I have also created several full stack projects and deployed them as well. Now I want to deep dive into the tech industry and sharpen my skills
           </p>
           <br />
           <br />
