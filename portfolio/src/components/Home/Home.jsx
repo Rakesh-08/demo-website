@@ -70,7 +70,7 @@ export default function Home() {
                 href="https://www.youtube.com/channel/UCFQz6AUsISAJOCMwWYxVSGA"
                 target="_blank"
               >
-                <YoutubeIcon  className="icon" />
+                <YouTubeIcon  className="icon" />
               </a>
             </div>
           </div>
