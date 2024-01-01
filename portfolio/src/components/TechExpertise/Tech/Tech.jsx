@@ -8,7 +8,8 @@ export default function Tech({ url, docs }) {
             <a href={docs} target="_blank">
             <img src={url} style={{
                     "height": "100%",
-                    "width":"100%"
+                    "width": "100%",
+                    "borderRadius":"1em"
                 }} />
             </a>
         </div>

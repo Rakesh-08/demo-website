@@ -6,7 +6,7 @@ let projects = [
   },
   {
     name: "Netflix-clone",
-    link:"https://netflix-frontend-rakesh-08.vercel.app/" ,
+    link: "https://netflix-frontend-rakesh-08.vercel.app/",
     poster: "/Netflix-clone.png",
   },
   {
@@ -15,14 +15,14 @@ let projects = [
     poster: "/mini-ecommerce.png",
   },
   {
-    name: "Tic-Tac-Toe Game",
-    link: "https://simple-todo-app-git-tic-tac-rakesh-08.vercel.app/",
-    poster: "/Tic-tac-toe.png",
+    name: "Chit-chat app",
+    link: "https://chit-chat-with-mandal.netlify.app/",
+    poster: "/chit-chat.png",
   },
   {
     name: "Resume Builder",
     link: "https://resume-builder-rakesh-08.vercel.app/",
-    poster:"/Resume-builder.png",
+    poster: "/Resume-builder.png",
   },
   {
     name: "CRM support service",
@@ -35,9 +35,14 @@ let projects = [
     poster: "/Fitness-app.png",
   },
   {
-    name: "viewTube",
+    name: "ViewTube",
     link: "https://viewtube-app.netlify.app/",
     poster: "/viewTube.png",
-  }
+  },
+  {
+    name: "Photogram application",
+    link: "https://08-photogram.netlify.app",
+    poster: "/pgm.png",
+  },
 ];
 export default projects;

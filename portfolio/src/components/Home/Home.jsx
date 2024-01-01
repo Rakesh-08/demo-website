@@ -3,6 +3,7 @@ import "./Home.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import YoutubeIcon from "@mui/icons-material/Youtube";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import NavigationBtn from "../NavigationBtn/NavigationBtn";
 
@@ -22,8 +23,10 @@ export default function Home() {
               Hello everyone,
             </span>
             <br />I am an aspiring software developer with a keen interest for
-             Technologies. I  have great knowledge about javascript,
-            nodejs , expressjs , react and redux etc . I have also created several full stack projects and deployed them as well. Now I want to deep dive into the tech industry and sharpen my skills
+            Technologies. I have great knowledge about javascript, nodejs ,
+            expressjs , react and redux etc . I have also created several full
+            stack projects and deployed them as well. Now I want to deep dive
+            into the tech industry and sharpen my skills
           </p>
           <br />
           <br />
@@ -35,7 +38,7 @@ export default function Home() {
                 href="https://www.instagram.com/rakesh_mandal080499/"
                 target="_blank"
               >
-                <InstagramIcon fontSize="large" className="icon" />
+                <InstagramIcon  className="icon" />
               </a>
             </div>
 
@@ -44,7 +47,7 @@ export default function Home() {
                 href="https://www.facebook.com/profile.php?id=100009636102737"
                 target="_blank"
               >
-                <FacebookIcon fontSize="large" className="icon" />
+                <FacebookIcon  className="icon" />
               </a>
             </div>
 
@@ -53,13 +56,21 @@ export default function Home() {
                 href="https://www.linkedin.com/in/rakesh-mandal-27b809193"
                 target="_blank"
               >
-                <LinkedInIcon fontSize="large" className="icon" />
+                <LinkedInIcon  className="icon" />
               </a>
             </div>
 
             <div className="media">
               <a href="https://github.com/Rakesh-08" target="_blank">
-                <GitHubIcon fontSize="large" className="icon" />
+                <GitHubIcon className="icon" />
+              </a>
+            </div>
+            <div className="media">
+              <a
+                href="https://www.youtube.com/channel/UCFQz6AUsISAJOCMwWYxVSGA"
+                target="_blank"
+              >
+                <YoutubeIcon  className="icon" />
               </a>
             </div>
           </div>
