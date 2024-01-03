@@ -1,5 +1,5 @@
 .home{
-    min-height: 85vh;
+   min-height: 80vh;
     width: 100%;
   padding-top: 1em;
     
@@ -59,7 +59,8 @@
 
 .icon{
      transform: scale(1.4);
-     
+    color: plum
+    
 }
 
 .icon:hover{
