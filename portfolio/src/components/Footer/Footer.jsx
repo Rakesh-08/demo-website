@@ -10,21 +10,22 @@ export default function Footer({ handleFormSubmit }) {
     message: "",
   });
 
-
   return (
     <div className="footer" id="footer">
       <div className="footerContainer">
-        <div className="footerLeft ">
+        <div className=" d-flex align-items-center justify-content-center ">
           <img
+            className="h-75 w-75 rounded"
             src="https://cdn.dribbble.com/users/5690231/screenshots/16191500/media/4fbd0ec22f13a3521bb37cc5fe8b1cb3.gif"
             alt="image"
           />
         </div>
-        <div className="footerRight ">
-          <form>
-            <div className="formfield">
+        <div className="footerRight  ">
+          <form className="w-100" >
+            <div>
               <label>Name</label>
               <input
+                className="form-control"
                 required
                 value={formInfo.name}
                 onChange={(e) =>
@@ -34,10 +35,11 @@ export default function Footer({ handleFormSubmit }) {
                 placeholder="name"
               />
             </div>
-            <div className="formfield">
+            <div>
               <label>Email</label>
               <input
                 required
+                className="form-control"
                 value={formInfo.email}
                 onChange={(e) =>
                   setFormInfo({ ...formInfo, email: e.target.value })
@@ -46,10 +48,11 @@ export default function Footer({ handleFormSubmit }) {
                 placeholder="e.g. abc@gmai.com"
               />
             </div>
-            <div className="formfield">
+            <div>
               <label>Mobile </label>
               <input
                 required
+                className="form-control"
                 value={formInfo.mobile}
                 onChange={(e) =>
                   setFormInfo({ ...formInfo, mobile: e.target.value })
@@ -57,9 +60,10 @@ export default function Footer({ handleFormSubmit }) {
                 type="text"
               />
             </div>
-            <div className="formfield">
+            <div >
               <label>Message </label>
               <input
+                className="form-control"
                 style={{ height: "4em" }}
                 required
                 value={formInfo.message}
@@ -72,7 +76,7 @@ export default function Footer({ handleFormSubmit }) {
               onClick={(e) => {
                 handleFormSubmit(e, formInfo);
               }}
-              className="formSubmit"
+              className="btn btn-warning my-4"
               type="submit"
             >
               submit
@@ -82,9 +86,8 @@ export default function Footer({ handleFormSubmit }) {
       </div>
 
       <div className="footerLowerPart">
-        <div className="footerInfo">
-          <div>
-            <div className="msgLogo">
+
+            <div className="msgLogo text-warning">
               <span>8448746347:</span>
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"
@@ -99,11 +102,11 @@ export default function Footer({ handleFormSubmit }) {
                 alt="EmailLogo "
               />
             </div>
-          </div>
+          
           <div>
-            <h4 className="copy">copyrights2023 @Rakesh_Mandal</h4>
+            <h4 className="fst-italic fs-6 text-info ">copyrights2023 @Rakesh_Mandal</h4>
           </div>
-        </div>
+
       </div>
     </div>
   );

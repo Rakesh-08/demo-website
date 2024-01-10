@@ -1,25 +1,20 @@
 .navbar {
   display: flex;
+  justify-content: space-between;
   position: sticky;
   top:0;
   background-color: black;
   z-index: 999;
 }
 .navLogo {
-  flex: 0.5;
+  flex: 0.3;
   padding-left: 2em;
 }
 
-
-.navImg {
-  height: 5vw;
-  width:   5vw;
-  border-radius: 20%;
-  cursor: pointer;
-}
 .navHeadings {
-  flex: 0.5;
+  flex: 0.7;
   display: flex;
+  max-width: 34em;
   justify-content: space-between;
   padding-right: 1em;
 }

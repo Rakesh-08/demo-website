@@ -16,71 +16,74 @@ export default function Home() {
           <span className="lastN"> Mandal</span>
         </h3>
       </div>
-      <div className="homeContainer">
-        <div className="homeLeft">
-          <p className="intro">
-            <span style={{ color: "orange", lineHeight: "3em" }}>
-              Hello everyone,
-            </span>
-            <br />I am an aspiring software developer with a keen interest for
-            Technologies. I have great knowledge about javascript, nodejs ,
-            expressjs , react and redux etc . I have also created several full
-            stack projects and deployed them as well. Now I want to deep dive
-            into the tech industry and sharpen my skills
-          </p>
-          <br />
-          <br />
-
-          <h4 className="connect">connect with me @ </h4>
-          <div className="socialChannels">
-            <div className="media">
-              <a
-                href="https://www.instagram.com/rakesh_mandal080499/"
-                target="_blank"
-              >
-                <InstagramIcon  className="icon" />
-              </a>
-            </div>
-
-            <div className="media">
-              <a
-                href="https://www.facebook.com/profile.php?id=100009636102737"
-                target="_blank"
-              >
-                <FacebookIcon  className="icon" />
-              </a>
-            </div>
-
-            <div className="media">
-              <a
-                href="https://www.linkedin.com/in/rakesh-mandal-27b809193"
-                target="_blank"
-              >
-                <LinkedInIcon  className="icon" />
-              </a>
-            </div>
-
-            <div className="media">
-              <a href="https://github.com/Rakesh-08" target="_blank">
-                <GitHubIcon className="icon" />
-              </a>
-            </div>
-            <div className="media">
-              <a
-                href="https://www.youtube.com/channel/UCFQz6AUsISAJOCMwWYxVSGA"
-                target="_blank"
-              >
-                <YouTubeIcon  className="icon" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="homeRight">
+      <div className="homeContainer mx-2">
+        <div className="homeRight my-3 ">
           <img
-            className="profileImg"
+            className="profileImg "
             src="/profile Img.png"
             alt="profile_pic"
           />
+        </div>
+
+        <div className="homeLeft ">
+          <div>
+          <p >
+            <span style={{ color: "orange", lineHeight: "3em" }}>
+              Hello everyone,
+            </span>
+            <br />I am an aspiring software developer with a keen interest for new
+            Technologies. I am skilled in javascript, nodejs ,
+            expressjs,mongoDB , react and redux etc . I have created and deployed several full
+            stack projects . Now I want to get
+            into the tech industry and sharpen my skills by collaborating with industry experts in creation of real-world technical products.
+          </p>
+
+          <div className='mt-5' >
+            <span style={{background:"linear-gradient(90deg,orange,red)"}} className="fst-italic fs-5 p-1  ">connect with me @ </span>
+            <div className="socialChannels">
+              <div className="media">
+                <a
+                  href="https://www.instagram.com/rakesh_mandal080499/"
+                  target="_blank"
+                >
+                  <InstagramIcon className="icon" />
+                </a>
+              </div>
+
+              <div className="media">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100009636102737"
+                  target="_blank"
+                >
+                  <FacebookIcon className="icon" />
+                </a>
+              </div>
+
+              <div className="media">
+                <a
+                  href="https://www.linkedin.com/in/rakesh-mandal-27b809193"
+                  target="_blank"
+                >
+                  <LinkedInIcon className="icon" />
+                </a>
+              </div>
+
+              <div className="media">
+                <a href="https://github.com/Rakesh-08" target="_blank">
+                  <GitHubIcon className="icon" />
+                </a>
+              </div>
+              <div className="media">
+                <a
+                  href="https://www.youtube.com/channel/UCFQz6AUsISAJOCMwWYxVSGA"
+                  target="_blank"
+                >
+                  <YouTubeIcon className="icon" />
+                </a>
+              </div>
+            </div>
+            </div>
+            </div>
         </div>
       </div>
     </div>

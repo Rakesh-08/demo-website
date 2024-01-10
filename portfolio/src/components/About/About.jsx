@@ -5,11 +5,11 @@ import Comment from "./Comment/Comment";
 
 export default function About({windowProps}) {
 
-  let content1 = "I always consider  pros and cons of any given problem while making my most of the decisions ,  .";
+  let content1 = "I always consider  pros and cons of any given problem while making my most of the decisions.";
   
-  let content2 = " I was a quick learner from the very beginning and the reason for that ,I adapt new things very well and efficiently";
+  let content2 = " I was a quick learner from the beginning,I adapt to new things quite well and efficiently.";
 
-  let content3 = "some people might think searching for the perfection is a wastage of time but for me its the  investment of time to get better outcome ";
+  let content3 = "Some people might think searching for perfection is a wastage of time but for me its investment of time to get satisfactory outcome.";
     return (
       <div className="aboutMe" id='about'>
         <div className="break"></div>

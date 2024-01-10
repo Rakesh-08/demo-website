@@ -4,9 +4,9 @@ import "./Project.css";
 export default function Project({ name, link, poster }) {
   
   return (
-    <div style={{margin:"0.4em"}}>
+    <div style={{ margin: "0.4em",minWdth:"20em"}}>
       <a href={link} target="_blank">
-        <div className="singleProject">
+        <div className="singleProject ">
           <img
             style={{ height: "100%", width: "100%" }}
             src={poster}

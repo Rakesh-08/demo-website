@@ -11,19 +11,16 @@
 }
 
 .projectsHeading{
-
-   margin:20px auto;
-    width: 50%;
-    font-size: 1.1em;
-    text-align: center;
+   text-align: center;
+   margin:1em;
+    font-size: 1em;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .projectContainer{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+     justify-content: center;
+     align-items: center;
 }
 
 

@@ -5,10 +5,12 @@ export default function Comment({content,title}){
     return (
         <div className='commentBox'>
             <div className='comment'>
-                
-                <h2>{title}</h2>
+                <div>
+                     <h2>{title}</h2>
                 
                 <p>{content}</p>
+                 </div>
+               
             </div>
         </div>
     )

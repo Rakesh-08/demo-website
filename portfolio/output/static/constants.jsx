@@ -1,7 +1,7 @@
 let techStack = {
   techImages: [
     {
-      link: "https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn",
+      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCI1yTWEJhL2OoD4f-5JxhUcxPA-AVikenrA&usqp=CAU",
       documentaion: "https://www.w3schools.com/html/",
     },
     {

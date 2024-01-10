@@ -8,14 +8,20 @@ export default function Projects() {
    
     return (
         <div className="projects" id="projects">
-            <h2>My Projects</h2>
-            <div className="projectsHeading">
-            I have created these full stack apps with the help of react and redux to create the frontend part  and nodeJS , expressJS  for the backend  along with mongodb or mysql  database 
+            <h2 className="my-5">My Projects</h2>
+        <div className="projectsHeading">
+          <p>
+             I have created these applications with the help of MERN stack technologies such as frontend is created using javascript ,reactjs,redux and bootstrap while backend is being built upon nodejs,expressjs and MongoDB.
+          </p>
+            
             </div>
-        <div className="projectContainer">
-          {projects.map((proj, index) => {
+        <div className="projectContainer row">
+          <div className="d-flex flex-wrap col-md-12 ">
+             {projects.map((proj, index) => {
             return <Project key={index} name={proj.name} link={proj.link} poster={proj.poster} />;
           })}
+          </div>
+         
             </div>
           
       </div>

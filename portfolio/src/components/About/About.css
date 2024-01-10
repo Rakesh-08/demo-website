@@ -5,7 +5,6 @@
    
 }
 .break{
-  
     background-color: red;
     height: 3px;
     width: 50%;
@@ -14,34 +13,31 @@
 }
 .commentsContainer{
     display:  flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top:2em;
-    width: 100vw;
-      
-
 }
 
 .cvFormContainer{
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-around;
-     margin:20px ;
      padding:1em 0;
+     margin-top: 20px;
    
 }
 
 
 .cvPart{
-    width: 39vw;
     margin:20px;
     padding: 10px;
+    width: 20em;
     font-size:1.3em;
     line-height: 1.3;
     font-family:cursive;
     color:rgb(228, 194, 131);
 }
 .form{
-    width: 30vw;
     text-align: center;
     align-self: center;
 }

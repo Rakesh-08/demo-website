@@ -1,7 +1,8 @@
 .home{
-   min-height: 80vh;
     width: 100%;
   padding-top: 1em;
+  min-height: 98vh;
+  margin-bottom: 2em;
     
 }
 .welcomeMsg{
@@ -10,51 +11,43 @@
 }
 .firstN{
     color:rgb(20, 154, 220);
-    font-size: 4vw;
+    
 }
 .lastN{
-    font-size: 4vw; 
+ 
       color:purple;
-}
-
-.profileImg{
-    height: 100%;
-    border-radius: 19% 4% 19% 4%;
-    border: 3px solid rebeccapurple;
-    position: absolute;
-    padding: 2vw 0em 0em 2vw;
-    right:4em;
-    
-   
 }
 .homeContainer{
     display: flex;
-}
-.homeRight{
-   flex:0.4;
-    position: relative;
-    height:50vh ;
+    justify-content: space-evenly;
+    flex-wrap:wrap; 
     
 }
-.homeLeft{
-    flex:0.6;
-    margin:0 1rem;  
-   
- }
-.intro{
-   font-size: 1.2rem;
-    padding: 0.3rem;
-    line-height: 1.2rem;
+
+.homeLeft{ 
+   width:100%;
+   max-width: 44em;
+   display:flex;
+   align-items: center;
+      
 }
+
 .socialChannels{
-    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width:60%;
+    margin: 1em;
 }
-.media{
-    margin:4px; 
+
+ .profileImg{ 
+   height:56vh;
+   border:2px solid white;
+   box-shadow: 2px 2px 2em 1em  red;
+   border-radius: 1em;
+
 }
+
 
 
 .icon{

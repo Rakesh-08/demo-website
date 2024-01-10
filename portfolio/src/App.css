@@ -15,45 +15,23 @@ body{
 a{
   text-decoration:none;
 }
-@media screen and (max-width: 500px) {
-   .navImg{
-    height: 3em !important;
-    width: 3em !important;
-    } 
 
-    
- .headings .nav{
-      font-size:1em;
+.sidebar{
+  display: none !important;
+}
+@media screen and (max-width: 600px) {
+   
+    .sidebar{
+      display: block !important;
     }
-
-    .navbar .navHeadings{
-      flex:2
-    }
-
-  .homeLeft  .intro{
-       font-size: 0.8em;
-  }    
-  .homeLeft  .socialChannels{
-      transform: scale(0.7);
-     width: 100%;
-      
-    }
-    
-    .homeRight .profileImg{
-        right:0.8em;
-         height:65%;
-         width:23vw
-    }
- .commentsContainer .commentBox{
-      height: 13em;
-      width: 12em;
+    .navitems{
+      display: none!important;
     }
 
     .formfield label{
         font-size: 1em;
     }
  
-
     .app .pagination{
       bottom: 0;
     }

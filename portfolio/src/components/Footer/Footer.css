@@ -4,64 +4,24 @@
    background-color: rgb(233, 89, 89);
     display: flex;
     flex-direction: column;
-    border-radius: 50%;
+    border-radius: 40%;
 }
 .footerContainer{
-  
     display: flex;
     justify-content: space-around;
-    flex:0.9;
-    
+    flex-wrap: wrap;       
 }
-
-
-.footerLeft >img{
-    height: 40vh;
-    width: 30vw;
-    border-radius: 10%;
-}
-
-.footerRight{
-    
+.footerRight{  
     display: flex;
-     height: 50vh;
-     justify-content: end;
-     margin-left:1.5rem;
-    
+     margin:1rem;
+    width:22em;
 }
-form{
-    width: 100%;
-}
-
-.formfield{
-    justify-content: space-between;
-    margin:10px;
-
-}
-
 label{
-    margin:13px
-}
-input{
-    height: 30px;
-    width:90%;
-    border-radius: 3%;
-    border:none;
-    background-color: rgb(149, 245, 6);
-}
-
-.formSubmit{
-    padding:0.5em;
-    cursor: pointer;
-    font-weight: 700;
-    margin-top: 1rem;
+    margin:10px
 }
 
 .footerLowerPart{
-   margin-left: 2em;
-   flex:0.1;
-   display: flex;
-     
+   margin:1em;
 }
 
 .msgLogo img{
