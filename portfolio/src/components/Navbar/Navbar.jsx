@@ -10,7 +10,7 @@ export default function Navbar({ windowProps }) {
       <div className="navLogo">
         <img
           className="rounded-circle"
-          height={33}
+          height={45}
           src="https://www.pngitem.com/pimgs/m/376-3763008_royal-mavericks-rm-logo-png-transparent-png.png"
         />
       </div>
@@ -24,23 +24,52 @@ export default function Navbar({ windowProps }) {
           width={25}
         />
         <div>
-           <Sidebar show={show} setShow={setShow}>
-          <NavItems sidebar="sidebar" windowProps={windowProps} />
-        </Sidebar>
+          <Sidebar show={show} setShow={setShow}>
+            <NavItems
+              setShow={setShow}
+              sidebar="sidebar"
+              windowProps={windowProps}
+            />
+          </Sidebar>
         </div>
-       
       </div>
     </div>
   );
 }
 
-let NavItems = ({ windowProps, sidebar }) => {
+let NavItems = ({ windowProps, sidebar, setShow }) => {
+  let handleClose = () => {
+    if (setShow) {
+      setShow(false)
+    }
+    
+  }
   return (
     <div className={`navHeadings ${!sidebar && "navitems"}`}>
-      <NavItem windowProp={windowProps} heading="Home" id="#home" />
-      <NavItem windowProp={windowProps} heading="About" id="#about" />
-      <NavItem windowProp={windowProps} heading="Projects" id="#projects" />
-      <NavItem windowProp={windowProps} heading="Tech-Stack" id="#techStack" />
+      <NavItem
+        windowProp={windowProps}
+        handleClose={handleClose}
+        heading="Home"
+        id="#home"
+      />
+      <NavItem
+        windowProp={windowProps}
+        handleClose={handleClose}
+        heading="About"
+        id="#about"
+      />
+      <NavItem
+        windowProp={windowProps}
+        handleClose={handleClose}
+        heading="Projects"
+        id="#projects"
+      />
+      <NavItem
+        windowProp={windowProps}
+        handleClose={handleClose}
+        heading="Tech-Stack"
+        id="#techStack"
+      />
     </div>
   );
 };

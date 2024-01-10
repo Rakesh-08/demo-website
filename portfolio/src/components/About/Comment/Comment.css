@@ -3,9 +3,9 @@
     position:relative;
     height: 12em;
     width: 15em;
-    margin:1em;
+    margin:1.2em;
     border-radius: 5%;
-    box-shadow: 0.3em 0.2em 2em rgb(255, 255, 0)  ;
+    box-shadow: -0.2em -0.2em 1em rgb(225, 225, 214)  ;
 }
 .comment{
     background-color: rgb(12, 182, 86);

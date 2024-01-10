@@ -24,12 +24,12 @@ export default function About({windowProps}) {
         <div className="cvFormContainer">
             <div className="cvPart">
             <h5 className="cvIntro"> Hey guys,  I am from delhi and i have done my schooling and degrees from delhi itself and I hold a masters degree in Economics from Delhi University .  To know more  , have a look over my resume below -</h5>
-            <a href="/Resume-Rakesh Mandal.pdf" target="_blank" className="resume"> RESUME </a>
+            <a href="/CV_SDE_Rakesh.pdf" target="_blank" className="resume"> RESUME </a>
         </div>
           <div className="form">
            
           <a href="#footer">
-            <button className="msgMe" onClick={()=>windowProps("#footer")}>Get In Touch</button>
+            <button className="msgMe p-2" onClick={()=>windowProps("#footer")}>Get In Touch</button>
           </a>
           
           </div>

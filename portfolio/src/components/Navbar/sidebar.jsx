@@ -12,8 +12,8 @@ function Sidebar({ show, setShow,children }) {
 
   return (
     <>
-          <Offcanvas  className="sidebar bg-dark h-25 "  show={show} onHide={handleClose} placement="top">
-          <Offcanvas.Header ><Button onClick={handleClose} style={{background:"transparent",border:0,outline:"none",color:"darkGray", fontSize:"1.4em",cursor:"pointer"}}>x</Button></Offcanvas.Header>
+          <Offcanvas style={{height:"9em",background:"black",fontFamily:"Times"}}  className="sidebar  "  show={show} onHide={handleClose} placement="top">
+          <Offcanvas.Header  ><Button onClick={handleClose} style={{background:"transparent",border:0,outline:"none",color:"darkGray", fontSize:"1.4em",cursor:"pointer"}}>x</Button></Offcanvas.Header>
         <Offcanvas.Body>
                    {children}
         </Offcanvas.Body>

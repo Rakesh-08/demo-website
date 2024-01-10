@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="home" id="home">
       <div className="welcomeMsg">
-        <h3>
+        <h3 className="display-4 ">
           <span className="firstN">Rakesh</span>
           <span className="lastN"> Mandal</span>
         </h3>
@@ -25,7 +25,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="homeLeft ">
+        <div className="homeLeft mx-2">
           <div>
           <p >
             <span style={{ color: "orange", lineHeight: "3em" }}>
@@ -38,9 +38,9 @@ export default function Home() {
             into the tech industry and sharpen my skills by collaborating with industry experts in creation of real-world technical products.
           </p>
 
-          <div className='mt-5' >
-            <span style={{background:"linear-gradient(90deg,orange,red)"}} className="fst-italic fs-5 p-1  ">connect with me @ </span>
-            <div className="socialChannels">
+          <div className='my-4' >
+            <span style={{background:"linear-gradient(90deg,black 40%,green)"}} className="fst-italic fs-5 p-2 rounded  ">connect with me @ </span>
+            <div className="socialChannels my-4">
               <div className="media">
                 <a
                   href="https://www.instagram.com/rakesh_mandal080499/"
