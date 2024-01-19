@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="projects" id="projects">
             <h2 className="my-5 fs-4">{"< My Projects />"}</h2>
         <div className="projectsHeading">
-          <p>
+          <p className="text-secondary">
              I have created these applications with the help of MERN stack technologies such as frontend is created using javascript ,reactjs,redux and bootstrap while backend is being built upon nodejs,expressjs and MongoDB.
           </p>
             
