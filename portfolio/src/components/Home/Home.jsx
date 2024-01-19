@@ -27,7 +27,7 @@ export default function Home() {
 
         <div className="homeLeft mx-2">
           <div>
-          <p className="text-secondary">
+          <p>
             <span style={{ color: "orange", lineHeight: "3em" }}>
               Hello everyone,
             </span>
