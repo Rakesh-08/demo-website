@@ -8,8 +8,9 @@
     box-shadow: -0.2em -0.2em 1em rgb(225, 225, 214)  ;
 }
 .comment{
-    background-color: rgb(12, 182, 86);
+    background-color: rgb(131, 12, 182);
     position: absolute;
+    padding:3px;
      right: -1.2em;
      bottom: -1.2em;
     height: 100%;
