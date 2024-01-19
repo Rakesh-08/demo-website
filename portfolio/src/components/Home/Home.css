@@ -1,7 +1,6 @@
 .home{
     width: 100%;
   padding-top: 1em;
-  min-height: 98vh;
   margin-bottom: 2em;
     
 }
@@ -42,18 +41,16 @@
 }
 
  .profileImg{ 
-   height:56vh;
+    height: 50vh;
    border:2px solid white;
    box-shadow: 2px 2px 2em 1em  red;
    border-radius: 1em;
 
 }
 
-
-
 .icon{
      transform: scale(1.4);
-   color:rgb(183, 193, 190)
+   color:rgb(8, 112, 72)
     
 }
 

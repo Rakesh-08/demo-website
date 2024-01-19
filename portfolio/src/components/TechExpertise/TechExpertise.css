@@ -1,7 +1,6 @@
 
 .techStack{
     padding-top: 3em;
-    min-height: 90vh;
     width: 100%;
     margin-bottom: 4rem;
 }
@@ -10,8 +9,7 @@
     margin:20px auto;
     padding:10px;
     font-style: oblique;
-    font-size: 2.5em;
-    text-decoration: underline 2px;
+    color:pink
 
 }
 

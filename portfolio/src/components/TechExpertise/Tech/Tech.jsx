@@ -9,7 +9,7 @@ export default function Tech({ url, docs }) {
             <img src={url} style={{
                     "height": "100%",
                     "width": "100%",
-                    "borderRadius":"1em"
+                    "borderRadius":"0.2em"
                 }} />
             </a>
         </div>

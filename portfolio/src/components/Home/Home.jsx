@@ -27,18 +27,18 @@ export default function Home() {
 
         <div className="homeLeft mx-2">
           <div>
-          <p >
+          <p className="text-secondary">
             <span style={{ color: "orange", lineHeight: "3em" }}>
               Hello everyone,
             </span>
-            <br />I am an aspiring software developer with a keen interest for new
-            Technologies. I am skilled in javascript, nodejs ,
-            expressjs,mongoDB , react and redux etc . I have created and deployed several full
-            stack projects . Now I want to get
-            into the tech industry and sharpen my skills by collaborating with industry experts in creation of real-world technical products.
+            <br />I am a Web developer with a great interest for new
+            Technologies. I have experise in javascript, nodejs ,
+            expressjs,mongoDB , redux and reactjs . I have created and deployed several full
+            stack projects and now I want to get started
+            in this industry and sharpen my skills by collaborating with industry experts in the creation of real-life technical products.
           </p>
 
-          <div className='my-4' >
+          <div className='my-5' >
             <span style={{background:"linear-gradient(90deg,black 40%,green)"}} className="fst-italic fs-5 p-2 rounded  ">connect with me @ </span>
             <div className="socialChannels my-4">
               <div className="media">

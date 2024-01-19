@@ -9,7 +9,7 @@ export default function TechExpertise() {
   return (
     <div className="techStack" id="techStack">
       <div>
-        <h2 className="techTitle">Tech - Stack</h2>
+        <h2 className="techTitle fs-4">{"< Tech-Stack />" }</h2>
         <div className="techIntro">
          At first , I  learned  HTML , CSS and Javascript then i continued to learn some other new technologies such as  nodejs , expressjs , jest , mysql , mongodb , react , redux and bootstrap  and still a lot to  add ....
         </div>

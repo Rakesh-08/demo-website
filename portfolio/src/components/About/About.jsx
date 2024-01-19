@@ -13,8 +13,8 @@ export default function About({windowProps}) {
     return (
       <div className="aboutMe" id='about'>
         <div className="break"></div>
-        <div style={{fontSize:"1.4rem",margin:"1em", color:"pink"}}>
-            Personal Info
+        <div className="fs-4" style={{margin:"1em", color:"pink"}}>
+          { "< Personal Info />"}
          </div>
         <div className='commentsContainer'>
           <Comment title="Analytical thinking" content={content1} />
