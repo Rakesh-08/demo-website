@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="home" id="home">
       <div className="welcomeMsg">
-        <marquee direction="right" behavior="alternate" scrollDelay={65}>
+        <marquee direction="right" behavior="alternate" scrollDelay={75}>
           {" "}
           <h3 className="display-4 ">
             <span className="firstN">Rakesh</span>
@@ -34,12 +34,12 @@ export default function Home() {
               <span style={{ color: "orange", lineHeight: "3em" }}>
                 Hello everyone,
               </span>
-              <br />I am a Web developer with a great interest for new
-              Technologies. I have experise in javascript, nodejs ,
-              expressjs,mongoDB , redux and reactjs . I have created and
+              <br />I am a MERN stack developer with great interest for new
+              Technologies. I have expertise in javascript, nodejs, 
+              expressjs, mongoDB, redux and reactjs . I have created and
               deployed several full stack projects and now I want to get started
               in this industry and sharpen my skills by collaborating with
-              industry experts in the creation of real-life technical products.
+              industry experts in building real-life technical products.
             </p>
 
             <div className="my-5">
