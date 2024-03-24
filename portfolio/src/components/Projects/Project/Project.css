@@ -1,8 +1,7 @@
  .singleProject{ 
     height: 30vh;
-    margin:0.3em;
-    border:2px solid rgb(141, 61, 221);
-    box-shadow: 0.1em 0.1em 1em  rgb(141, 65, 216);
+    margin:0.3em; 
+
 }
 
 .singleProject:hover{

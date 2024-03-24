@@ -45,6 +45,7 @@ export default function App() {
 
   return (
     <div className="app">
+      
       <Navbar windowProps={navigateTo} />
       <Home />
       <About windowProps={navigateTo} />

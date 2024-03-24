@@ -2,6 +2,8 @@
     width: 100%;
   padding-top: 1em;
   margin-bottom: 2em;
+  min-height:85vh;
+  background:linear-gradient(rgb(202, 196, 196),black)
     
 }
 .welcomeMsg{
@@ -50,7 +52,7 @@
 
 .icon{
      transform: scale(1.4);
-   color:rgb(122,388,33);
+   color:rgb(222,388,233);
     
 }
 

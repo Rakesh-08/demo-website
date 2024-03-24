@@ -8,7 +8,7 @@ export default function Project({ name, link, poster }) {
       <a href={link} target="_blank">
         <div className="singleProject ">
           <img
-            style={{ height: "100%", width: "100%" }}
+            style={{ height: "100%", width: "100%",borderRadius:"1em",border:"1px solid " }}
             src={poster}
             alt="poster"
           />

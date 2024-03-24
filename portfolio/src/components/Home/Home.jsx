@@ -30,16 +30,12 @@ export default function Home() {
 
         <div className="homeLeft mx-2">
           <div>
-            <p>
-              <span style={{ color: "orange", lineHeight: "3em" }}>
+            <p style={{ fontStyle: "oblique" }}>
+              <span style={{ color: "", lineHeight: "2em", fontFamily: "sans-serif", fontSize:'1.3em' }}>
                 Hello everyone,
               </span>
-              <br />I am a MERN stack developer with great interest for new
-              Technologies. I have expertise in javascript, nodejs, 
-              expressjs, mongoDB, redux and reactjs . I have created and
-              deployed several full stack projects and now I want to get started
-              in this industry and sharpen my skills by collaborating with
-              industry experts in building real-life technical products.
+              <br />I am a MERN stack developer having expertise in javascript, nodejs, expressjs,
+              mongoDB, redux and reactjs and looking forward to connect with industry experts and senior developers to create robust and extensible application systems.
             </p>
 
             <div className="my-5">

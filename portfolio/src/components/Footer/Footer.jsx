@@ -20,7 +20,7 @@ export default function Footer({ handleFormSubmit }) {
             alt="image"
           />
         </div>
-        <div className="footerRight bg-dark shadow ">
+        <div className="footerRight bg-dark shadow rounded  ">
           <form className="w-100 ">
             <div>
               <label>Name</label>
@@ -88,7 +88,7 @@ export default function Footer({ handleFormSubmit }) {
       </div>
 
       <div className="footerLowerPart">
-        <div className="msgLogo text-warning">
+        <div className="msgLogo ">
           <span>8448746347:</span>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"
